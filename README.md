@@ -8,55 +8,53 @@
 - [Descripción de alcances](#resumen-del-proyecto)
 
 * [0. Instalación y configuraciones iniciales](#resumen-del-proyecto)
-
   - [Alcance 0.1 - Estructura de Carpetas](#alcances-01)
   - [Alcance 0.2 - Instalación de dependencias](#alcances-02)
-
+  
 * [1. Backend (Middlewares, Models & Routes)](#iteraciones)
-
-  - [Alcance 1.1 - BACKEND · Creando el servidor, el archivo .env y "Middlewares"]()
-  - [Alcance 1.2 - BACKEND · Creando el modelo "User"]()
-  - [Alcance 1.3 - BACKEND · Registrando "users"]()
-  - [Alcance 1.4 - BACKEND · Encriptando "passwords"]()
-  - [Alcance 1.5 - BACKEND · Iniciando sesión con "users" y creando "tokens"]()
-  - [Alcance 1.6 - BACKEND · Creando una ruta de Autenticación]()
-  - [Alcance 1.7 - BACKEND · Cerrando sesión de "users"]()
-  - [Alcance 1.8 - BACKEND · Creando el modelo "Brand" y sus rutas]()
-  - [Alcance 1.9 - BACKEND · Creando el modelo "Woods" y sus rutas]()
-  - [Alcance 1.10 - BACKEND · Agregando productos]()
-  - [Alcance 1.11 - BACKEND · Obteniendo los productos por ID]()
-  - [Alcance 1.12 - BACKEND · Obteniendo los productos por orden]()
+  * [Alcance 1.1 - BACKEND · Creando el servidor, el archivo .env y "Middlewares"]()
+  * [Alcance 1.2 - BACKEND · Creando el modelo "User"]()
+  * [Alcance 1.3 - BACKEND · Registrando "users"]()
+  * [Alcance 1.4 - BACKEND · Encriptando "passwords"]()
+  * [Alcance 1.5 - BACKEND · Iniciando sesión con "users" y creando "tokens"]()
+  * [Alcance 1.6 - BACKEND · Creando una ruta de Autenticación]()
+  * [Alcance 1.7 - BACKEND · Cerrando sesión de "users"]()
+  * [Alcance 1.8 - BACKEND · Creando el modelo "Brand" y sus rutas]()
+  * [Alcance 1.9 - BACKEND · Creando el modelo "Woods" y sus rutas]()
+  * [Alcance 1.10 - BACKEND · Agregando productos]()
+  * [Alcance 1.11 - BACKEND · Obteniendo los productos por ID]()
+  * [Alcance 1.12 - BACKEND · Obteniendo los productos por orden]()
 
 * [2. Frontend (Authentication)](#iteraciones)
 
-  - [Alcance 2.1 - FRONTEND · Configuración, dependencias y scripts]()
-  - [Alcance 2.2 - FRONTEND · Creando el Header y el Footer]()
-  - [Alcance 2.3 - FRONTEND · Configurando Redux]()
-  - [Alcance 2.4 - FRONTEND · Agregando componente de "Registro" e "Inicio de Sesión"]()
-  - [Alcance 2.5 - FRONTEND · Desarrollando el inicio de sesión]()
-  - [Alcance 2.6 - FRONTEND · Desarrollando el registro]()
-  - [Alcance 2.7 - FRONTEND · Creando el "dashboard"]()
-  - [Alcance 2.8 - FRONTEND · Prevención de rutas]()
+  * [Alcance 2.1 - FRONTEND · Configuración, dependencias y scripts]()
+  * [Alcance 2.2 - FRONTEND · Creando el Header y el Footer]()
+  * [Alcance 2.3 - FRONTEND · Configurando Redux]()
+  * [Alcance 2.4 - FRONTEND · Agregando componente de "Registro" e "Inicio de Sesión"]()
+  * [Alcance 2.5 - FRONTEND · Desarrollando el inicio de sesión]()
+  * [Alcance 2.6 - FRONTEND · Desarrollando el registro]()
+  * [Alcance 2.7 - FRONTEND · Creando el "dashboard"]()
+  * [Alcance 2.8 - FRONTEND · Prevención de rutas]()
 
 * [3. Frontend (Landing Page + Shop + Admin Page)](#iteraciones)
 
 * [4. Frontend (Checkout + Payment Process)](#iteraciones)
 
----
+***
 
 ## Preámbulo
 
 ![Imgur](https://i.imgur.com/XHpENHF.jpg)
 
-La pasión de tu vida siempre ha sido la música.
+La pasión de tu vida siempre ha sido la música. 
 
-Has destacado en la industria por tus conocimientos en el mundo de las guitarras. Se te reconoce por ayudar entusiastas a elegir su primer instrumento y a los más veteranos en una más apropiada para sus necesidades.
+Has destacado en la industria por tus conocimientos en el mundo de las guitarras. Se te reconoce por ayudar entusiastas a elegir su primer instrumento y a los más veteranos en una más apropiada para sus necesidades. 
 
 Además, tu trabajo principal es realizar consultorías a distribuidoras de instrumentos, mejorando su flujo de ventas en todo el país.
 
 Por ello, después de varios años, has juntado suficiente dinero y confianza para aprovechar toda tu experiencia e invertir en crear un negocio propio.
 
-Tomas la decisión de programar una tienda de comercio electrónico y vender guitarras con un sistema más automatizado.
+Tomas la decisión de programar una tienda de comercio electrónico y vender guitarras con un sistema más automatizado. 
 
 Con los conocimientos del Bootcamp de programación que terminaste hace un par de meses, afirmas que cuentas con los conocimientos suficientes para ejecutarlo.
 
@@ -74,22 +72,24 @@ Construirás una tienda de comercio electrónico bajo el esquema MERN, en el cua
 El proyecto estará dividido en alcances. Su intención es brindarte un camino para que lo puedas ir resolviendo paso a paso.
 
 Recuerda que al terminar cada alcance, deberás realizar un "commit" para asegurar tu progreso dentro de tu repositorio.
+ 
 
 ## Consideraciones técnicas
 
-- [NodeJS](https://nodejs.org)
-- [Postman](https://www.getpostman.com/)
-- [MongoDB](https://docs.mongodb.com/manual/administration/install-community/)
-- [MongoDB Compass](https://www.mongodb.com/products/compass)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Git](https://git-scm.com/downloads)
-- ["GitHub Reposity: Projects & Issues"](https://help.github.com/en/articles/about-project-boards)
+* [NodeJS](https://nodejs.org)
+* [Postman](https://www.getpostman.com/)
+* [MongoDB](https://docs.mongodb.com/manual/administration/install-community/)
+* [MongoDB Compass](https://www.mongodb.com/products/compass)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Git](https://git-scm.com/downloads)
+* ["GitHub Reposity: Projects & Issues"](https://help.github.com/en/articles/about-project-boards)
 
----
+***
 
 ## Alcances 0 · Instalación y configuraciones iniciales
 
 En este módulo, trabajaremos nuestra estructura de carpetas, revisaremos las dependencias que nuestro BACKEND necesita y finalmente haremos la configuración mínima para levantar el servidor en el puerto 3002.
+
 
 ## 0.1 - Estructura de Carpetas
 
@@ -99,7 +99,6 @@ En este módulo, trabajaremos nuestra estructura de carpetas, revisaremos las de
 - Crea un archivo .gitignore y coloca dentro los archivos que deberemos ignorar. Te recomendamos colocar:
 
 #### `./.gitignore`
-
 ```
 /node_modules
 /build
@@ -119,7 +118,7 @@ yarn-error.log*
 |--client
 |--server
 |   |--server.js
-|
+|  
 |--.gitignore
 |--package.json
 ```
@@ -129,7 +128,6 @@ yarn-error.log*
 - Instala las dependencias para el proyecto:
 
 #### `Servidor`
-
 - nodemon - Herramienta para monitorear cambios en una aplicación y reiniciarla cada vez que suceda uno.
 - bcrypt - Encriptación de contraseñas.
 - cloudinary - Subir imágenes a plataforma de [Cloudinary](https://cloudinary.com/).
@@ -148,7 +146,6 @@ Verifica que estén colocadas en tu `package.json`, dentro de tus dependencias.
 - Crea el script "server" dentro de tu package.json que corra `nodemon` sobre tu archivo `server.js`.
 
 #### `./package.json`
-
 ```javascript
 ...
 "scripts":{
@@ -160,19 +157,18 @@ Verifica que estén colocadas en tu `package.json`, dentro de tus dependencias.
 - Levanta el servidor en el puerto 3002
 
 #### `./server/server.js`
-
 ```javascript
   const express = require('express')
   const app = express()
   const port = process.env.PORT || 3002
-
+  
   app.listen(port, () => {
     console.log(`Servidor corriendo en el puerto ${port}`)
-  }
-
+  })
+  
 ```
 
----
+***
 
 ## Alcances 1 · BACKEND (Middlewares, Models & Routes)
 
@@ -182,11 +178,15 @@ Durante todo este alcance, trabajaremos dentro de la carpeta "server". Crearemos
 
 - Crea un archivo .env en la raiz del proyecto y dentro agrega la línea:
 
+**`./.env`**
+
 ```javascript
 DATABASE=mongodb://localhost:27017/tiendaguitarras
 ```
 
 - Para poder utilizar .env, debes de agregar esta línea en el archivo de `server.js`:
+
+**`./server/server.js`**
 
 ```javascript
 ...
@@ -197,13 +197,19 @@ require('dotenv').config()
 
 - Conéctate a tu base de datos de MongoDB a través de mongoose, bajo el nombre de "tiendaguitarras" y utilizando la variable de `env` como la dirección de conexión a la base de datos.
 
+**`./server/server.js`**
+
 ```javascript
 ...
-mongoose.connect(process.env.DATABASE)
+mongoose.connect(process.env.DATABASE, { useNewUrlParser: true }, (err) => {
+    if(err) return err
+    console.log("Conectado a MongoDB")
+})
 ```
 
 - Utiliza un middleware para convertir los datos que recibamos del cliente en Strings, arreglos o en JSON.
 
+**`./server/server.js`**
 ```javascript
 ...
 app.use(express.urlencoded({extended: true}))
@@ -212,6 +218,8 @@ app.use(express.json())
 
 - Utiliza un middleware para la inyección de cookies en la petición de datos desde el cliente.
 
+**`./server/server.js`**
+
 ```javascript
 ...
 app.use(cookieParser())
@@ -219,59 +227,640 @@ app.use(cookieParser())
 
 Tu código final en este alcance debería ser:
 
+**`./server/server.js`**
+
 ```javascript
-const express = require("express");
-const cookieParser = require("cookie-parser");
+const express = require('express')
+const cookieParser = require('cookie-parser')
 
-const app = express();
-const mongoose = require("mongoose");
+const app = express()
+const mongoose = require('mongoose')
 
-require("dotenv").config();
+require('dotenv').config()
 
-mongoose.connect(process.env.DATABASE);
+mongoose.connect(process.env.DATABASE, { useNewUrlParser: true }, , (err) => {
+    if(err) return err
+    console.log("Conectado a MongoDB")
+})
 
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-app.use(cookieParser());
+app.use(express.urlencoded({extended: true}))
+app.use(express.json())
+app.use(cookieParser())
 
-const port = process.env.PORT || 3002;
+const port = process.env.PORT || 3002
 
 app.listen(port, () => {
-  console.log(`Servidor corriendo en puerto ${port}`);
-});
+  console.log(`Servidor corriendo en puerto ${port}`)
+})
+
 ```
+
+***
 
 ## 1.2 - BACKEND · Creando el modelo "User"
 
-- Crea la ruta "https://localhost:3002/api/users" bajo el método POST. Por ahora, que sólo devuelva un statuso 200.
+En este alcance, crearemos el modelo "User", el cual estará referido a los usuarios de nuestra aplicación.
 
-- Crea un modelo "User" que contenga:
+- Crea el apartado de rutas “USERS” en `server.js` 
 
-  - email (String)
-  - password (String)
-  - nombre (String)
-  - apellido (String)
-  - carrito (array)
-  - historial (Array)
-  - rol (Number)
-  - token (String)
+**`./server/server.js`**
 
-- Impórtalo en tu archivo de `server.js`
+```javascript
+app.post('/api/users/register', (req, res)=> {
+    res.status(200).send('Funciona la conexión')
+})
+```
+
+- Crea tu carpeta de `models` y luego agrega `user.js` dentro de la misma. Observa las diferentes propiedades que agregaremos dentro del "Schema" y sus diferentes validaciones.
+
+**`./server/models/user.js`**
+
+```javascript
+
+    const mongoose = require('mongoose')
+    
+    const userSchema = mongoose.Schema({
+        email: {
+            type: String,
+            required: true,
+            trim: true,
+            unique: 1
+        },
+        password: {
+            type: String,
+            required: true,
+            minlength: 5
+        },
+        name: {
+            type: String,
+            required: true,
+            maxlength: 100
+        },
+        lastname: {
+            type: String,
+            required: true,
+            maxlength: 100
+        },        
+        cart: {
+            type: Array,
+            default: []
+        },         
+        history:{
+            type: Array,
+            default:[]
+        },
+        role: {
+            type: Number,
+            default: 0
+        },
+        token: {
+            type: String
+        }
+    })
+    
+    const User = mongoose.model('User', userSchema, "users")
+    
+    module.exports = { User }
+    
+```
+
+- Una vez armado el modelo, entramos a `server.js` y lo importamos.
+
+**`./server/server.js`**
+
+```javascript
+
+const  { User } = require('./models/user')
+
+```
+
+***
 
 ## 1.3 - BACKEND · Registrando "users"
 
+- Entramos a Postman. Creamos una colección llamada GUITARSHOP.
+
+- Creamos una variable en “Settings” y agregamos un “Environment”. 
+
+- Creamos un "Key" llamado URL, y el nombre: `http://localhost:3002`. Todo esto con la intención de que cada vez que hagamos un request, no tengamos que reptir constantemente la URL. Confirmamos haciendo una llamada HTTP nuevamente.
+
+- Vamos a `server.js`, en las rutas de `USERS`:
+
+**`./server/server.js`**
+
+```javascript
+
+app.post('/api/users/register', (req, res) => {
+    const user = new User(req.body)
+    user.save((err, doc) => {
+        if(err) return res. json({success: false, err})
+        res.status(200).json({
+            success: true,
+            userdata: doc
+        })
+    })
+})
+
+```
+
+- Ponemos en POSTMAN, una llamada POST. Cuidar el HEADERS agregando el correcto `Content-Type` y `application/json`.
+
+- Luego, en BODY, pasamos un objeto JSON, con la opción 'raw':
+
+```javascript
+{
+    "email": "mikenieva@gmail.com",
+    "password": "password123",
+    "name": "Mike",
+    "lastname": "Nieva"
+}
+```
+
+Con esto, creamos un usuario y confirmamos que aparece el documento en la base de datos. Observa que tenemos un `_id` que pertenece a MongoDB.
+
+- Revisamos las validaciones del Backend, si enviamos el mismo mail.
+
+- Guardamos nuestra llamada HTTP en Postman. (POST Register User)
+
+***
+
 ## 1.4 - BACKEND · Encriptando "passwords"
+
+- Ahora, el password deberíamos hashearlo o encriptarlo. Lo haremos en la siguiente parte. Lo que debemos hacer antes de guardar el password en base de datos es encriptarlo, para mantener la seguridad del mismo.
+
+- Agregamos en el modelo de User:
+
+**`./server/models/user.js`**
+```javascript
+// IMPORTACIONES
+...
+const bcrypt = require('bcrypt')
+const SALT_I = 10
+// SCHEMA
+...
+// MIDDLEWARE
+userSchema.pre('save', function(next){
+    var user = this
+    
+    bcrypt.genSalt(SALT_I, function(err, salt){
+        if(err) return next(err)
+        bcrypt.hash(user.password, salt, function(err, hash){
+             if(err) return next(err)
+             user.password = hash
+             next()           
+        })
+    })
+})
+```
+
+- Para revisar que funciona, generemos un usuario nuevo y ahora deberemos ver el password “hasheado”.
+
+- Ahora, esta línea, no importando si se crea o edita la información del usuario, volverá a encriptar el password en cada llamada. Para que suceda sólamente cuando creamos el usuario o modifiquemos el password, agregamos:
+
+**`./server/models/user.js`**
+
+```javascript
+userSchema.pre('save', function(next){
+    var user = this
+    if(user.isModified('password')){
+        bcrypt.genSalt(SALT_I, function(err, salt){
+            if(err) return next(err)
+            bcrypt.hash(user.password, salt, function(err, hash){
+                if(err) return next(err)
+                user.password = hash
+                next()           
+            })
+        })
+    } else {
+        next()
+    }
+})
+```
+
+
+- Revisamos en POSTMAN que sigue registrando sin problemas los usuarios
+
+***
 
 ## 1.5 - BACKEND · Iniciando sesión con "users" y creando "tokens"
 
+- Vamos a hacer una ruta POST en las rutas USER
+
+**`./server/server.js`**
+```javascript
+…
+app.post('/api/users/login', (req, res) => {
+    // 1. Encuentra el correo
+        User.findOne({'email': req.body.email}, (err,user) => {
+            if(!user) return res.json({loginSuccess: false, message: 'Auth fallida, email no encontrado'})
+            
+        })
+    // 2. Obtén el password y compruébalo
+
+    // 3. Si todo es correcto, genera un token
+})
+
+```
+- A partir de aquí, necesitamos bcrypt para decriptar el password. Iremos a los models, en user.js, para crear un método
+que me permita extraerlo.
+
+
+**`./server/models/user.js`**
+```javascript
+…
+userSchema.methods.comparePassword = function(candidatePassword, cb){
+        
+}
+```
+
+
+- Vamos al servidor nuevamente...
+
+**`./server/server.js`**
+
+```javascript
+…
+app.post('/api/users/login', (req, res) => {
+    // 1. Encuentra el correo
+        User.findOne({'email': req.body.email}, (err,user) => {
+            if(!user) return res.json({loginSuccess: false, message: 'Auth fallida, email no encontrado'})
+    // 2. Obtén el password y compruébalo
+            user.comparePassword(req.body.password, (err, isMatch) => {
+              if(!isMatch) return res.json({loginSuccess: false, message: "Password erróneo"})               
+              
+    // 3. Si todo es correcto, genera un token
+    
+            })
+        })
+})
+```
+
+
+- Ahora, ¿cómo comparamos los passwords?, regresamos a models/user.js
+
+
+**`./server/models/user.js`**
+
+```javascript
+…
+userSchema.methods.comparePassword = function(candidatePassword, cb){
+        bcrypt.compare(candidatePassword, this.password, function(err, isMatch){
+            if(err) return cb(err)
+            cb(null, isMatch)
+        })    
+}
+```
+
+- Y listo, con esto tenemos armada la función para que podamos verificar si los passwords matchean.
+- Ahora bien, si matchean, lo que debe pasar es generar un token de identificación.
+
+- Vamos a invocar una función llamada `user.generateToken
+
+**`./server/server.js`**
+
+```javascript
+…
+
+app.post('/api/users/login', (req, res) => {
+    // 1. Encuentra el correo
+        User.findOne({'email': req.body.email}, (err,user) => {
+            if(!user) return res.json({loginSuccess: false, message: 'Auth fallida, email no encontrado'})
+    // 2. Obtén el password y compruébalo            
+            user.comparePassword(req.body.password, (err, isMatch) => {
+              if(!isMatch) return res.json({loginSuccess: false, message: "Wrong Password"})               
+              
+    // 3. Si todo es correcto, genera un token              
+              user.generateToken((err, user)=> {
+                    
+                })
+            })
+        })
+
+})
+```
+
+- Y luego, vamos a declararla en nuestros models/user.js
+
+**`./server/models/user.js`**
+
+```javascript
+// IMPORTACIONES
+const jwt = require(‘jsonwebtoken’)
+…
+userSchema.methods.comparePassword = function(candidatePassword, cb){
+        bcrypt.compare(candidatePassword, this.password, function(err, isMatch){
+            if(err) return cb(err)
+            cb(null, isMatch)
+        })    
+}
+
+userSchema.methods.generateToken = function(){
+    var user = this
+    var token = jwt.sign()
+    
+    // Token = user.id + password (el password del ambiente. Sólo el servidor lo sabrá)
+}
+```
+
+- Vamos a .env y vamos a crear el password para los tokens
+
+**`./.env`**
+
+```javascript
+DATABASE=…
+SECRET=SUPERSECRETPASSWORD123
+```
+
+- Regresamos a nuestro models/user.js
+
+**`./server/models/user.js`**
+
+```javascript
+// IMPORTACIONES
+const jwt = require('jsonwebtoken')
+…
+require('dotenv').config()
+…
+userSchema.methods.comparePassword = function(candidatePassword, cb){
+        bcrypt.compare(candidatePassword, this.password, function(err, isMatch){
+            if(err) return cb(err)
+            cb(null, isMatch)
+        })    
+}
+
+
+userSchema.methods.generateToken = function(cb){
+    var user = this
+    var token = jwt.sign(user._id.toHexString(),process.env.SECRET)
+    
+    // Token = user.id + password (el password del ambiente. Sólo el servidor lo sabrá)
+    user.token = token
+    user.save(function(err, user){
+        if(err) return cb(err)        
+        cb(null, user)
+    })
+}
+```
+
+- Listo. Ahora, regresamos a nuestro server.js
+
+**`./server/server.js`**
+
+```javascript
+…
+app.post('/api/users/login', (req, res) => {
+    // 1. Encuentra el correo
+        User.findOne({'email': req.body.email}, (err,user) => {
+            if(!user) return res.json({loginSuccess: false, message: 'Auth fallida, email no encontrado'})
+            
+    // 2. Obtén el password y compruébalo            
+    
+            user.comparePassword(req.body.password, (err, isMatch) => {
+              if(!isMatch) return res.json({loginSuccess: false, message: "Wrong Password"})               
+              
+    // 3. Si todo es correcto, genera un token              
+    
+              user.generateToken((err, user)=> {
+                    if(err) return res.status(400).send(err)
+                    // Si todo bien, debemos guardar este token como un "cookie"
+                    res.cookie('w_auth', user.token).status(200).json(
+                        {loginSuccess: true}
+                    )
+                })
+            })
+        })
+})
+```
+
+- Hagamos la prueba directamente en Postman, a través de raw. Le pasamos este json:
+
+```javascript
+{
+    "email": "mike@gmail.com",
+    "password": "password123"
+}
+```
+
+- Prueba con un login incorrecto
+- Prueba con un login correcto
+- Revisa el cookie en Postman y también en el usuario loggeado.
+- Finalmente, salvemos la ruta en nuestra carpeta de POSTMAN: `GET Login User`
+
+***
+
 ## 1.6 - BACKEND · Creando una ruta de Autenticación
+
+- Ahora vamos a crear una ruta de autenticación. Cada vez que vamos a una url distinta, constantemente estamos revisando si el usuario posee el token correcto. Podemos revisarlo directamente en la consola. Application -> Cookie.
+
+- Lo que vamos a hacer es crear esta verificación constante. No importa que URL visitas, siempre revisaremos si tiene la cookie o no.
+
+**`./server/server.js`**
+
+```javascript
+app.get('/api/users/auth', (req, res) => {
+            
+})
+```
+
+Ahora, vamos a crear un middleware para hacer la revisión.
+
+- Creamos una carpeta llamada middleware y dentro crearemos un archivo llamado auth.js
+
+**`./server/middleware/auth.js`**
+
+```javascript
+const { User } = require('./../models/user')
+let auth = (req, res, next) => {
+        
+}
+module.exports = { auth }
+```
+
+- Regresamos a server.js. Para preparar el auth.
+
+**`./server/server.js`**
+
+```javascript
+// 2. MIDDLEWARES
+const { auth } = require('./middleware/auth')
+
+…
+app.get('/api/users/auth', auth, (req, res) => {
+            
+})
+```
+
+
+- Volvemos a middlewares/auth. Preparamos para buscar por token la función auth.
+
+**`./server/middleware/auth.js`**
+```javascript
+
+const { User } = require('./../models/user')
+let auth = (req, res, next) => {
+    
+//// Token
+    let token = req.cookies.w_auth
+    User.findByToken(token, (err, user)=> { 
+        
+    })
+
+}
+module.exports = { auth }
+```
+
+- Vamos al models/user.js para crear la función findByToken (porque no existe)
+
+**`./server/models/user.js`**
+
+```javascript
+…
+
+userSchema.statics.findByToken = function(token,cb){
+    var user = this
+    
+    // Decodificamos el Token para checar si el mismo está ok
+    
+    jwt.verify(token, process.env.SECRET, function(err, decode){
+        user.findOne("_id": decode, “token”: token, function(err, user){
+            if (err) cb(error)
+            cb(null, user)
+        }         
+    })
+}
+
+const User = mongoose.model...
+...
+```
+
+
+- Regresamos a ./middlewares/auth
+
+**`./server/server.js`**
+
+```javascript
+
+const { User } = require('./../models/user')
+let auth = (req, res, next) => {
+    
+// TOKEN
+    let token = req.cookies.w_auth
+    User.findByToken(token, (err, user)=> { 
+        if(err) throw err
+        if(!user) return res.json({
+            isAuth: false,
+            error: true
+        })
+        req.token = token;
+        req.user = user;
+        next()
+    })
+
+}
+module.exports = { auth }
+```
+
+Una vez que completamos y damos next( ), avanzamos al server.js. Ya pasó por el middleware, podemos avanzar con nuestra ruta.
+
+**`./server/server.js`**
+
+```javascript
+// 2. MIDDLEWARES
+const { auth } = require('./middleware/auth')
+
+…
+app.get('/api/users/auth', auth, (req, res) => {
+    res.status(200).json({
+        user: req.user
+        
+    })
+})
+```
+
+- Vamos a Postman para validar la llamada. Deberías recibir el usuario como tal.
+
+GET  {{url}}/api/users/auth
+```javascript
+{
+  "user": {
+    "cart": []
+    ...
+    }
+}
+```
+
+- Finalmente, terminamos la ruta y hacemos un pequeño cambio en la ruta del register. No es necesario pasar toda la data.
+
+**`./server/server.js`**
+
+```javascript
+// 2. MIDDLEWARES
+const { auth } = require(‘./middleware/auth’)
+
+…
+app.get('/api/users/auth', auth, (req, res) => {
+    res.status(200).json({
+        isAdmin: req.user.role === 0 ? false : true,
+        isAuth: true,
+        email: req.user.email,
+        name: req.user.name,
+        lastname: req.user.lastname,
+        role: req.user.role,
+        cart: req.user.cart,
+        history: req.user.history
+    })
+})
+
+app.post( …
+
+        res.status(200).json({
+        success: true
+    })
+...
+
+- Guarda tu ruta en POSTMAN. -> AUTH
+
+```
+
+***
+
 
 ## 1.7 - BACKEND · Cerrando sesión de "users"
 
----
+
+- Hacemos la ruta y el auth.
+
+**`./server/server.js`**
+
+```javascript
+app.get('/api/user/logout', auth, (req, res) => {
+    User.findOneAndUpdate(
+        {_id: req.user._id},
+        {token: ''},
+        (err, doc) => {
+            if(err) return res.json({success: false, err})
+            return res.status(200).json({
+                success: true
+            })
+        }
+    )
+})
+```
+
+- Y eso es todo. Borramos el token cuando tocamos esa ruta.
+- Y recuerda guardar tu ruta en POSTMAN.
+
+***
+
 
 ## 2. FRONTEND (Authentication)
 
 ## 2. FRONTEND (Landing Page + Shop + Admin Page)
 
 ## 3. FRONTEND (Checkout + Payment Process)
+
+
+
+
+
+
