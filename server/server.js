@@ -16,8 +16,16 @@ app.use(cookieParser());
 
 const { User } = require("./models/User.js");
 
-app.post("http://localhost:3002/api/users", (req, res, next) => {
-  res.status(200).send("todo chido");
+app.post("/api/users/register", (req, res, next) => {
+  const user = new User(req.body);
+  user.save((err, doc) => {
+    if (err) return res.json({ success: false, err });
+
+    res.status(200).json({
+      success: true,
+      userdata: doc
+    });
+  });
 });
 
 app.listen(port, () => {
