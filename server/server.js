@@ -5,10 +5,14 @@ const mongoose = require("mongoose");
 const port = process.env.PORT || 3002;
 
 require("dotenv").config();
-mongoose.connect(process.env.DATABASE, { useNewUrlParser: true }, err => {
-  if (err) return err;
-  console.log("conectado a Mongo");
-});
+mongoose.connect(
+  process.env.DATABASE,
+  { useNewUrlParser: true, useCreateIndex: true },
+  err => {
+    if (err) return err;
+    console.log("conectado a Mongo");
+  }
+);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -24,6 +28,29 @@ app.post("/api/users/register", (req, res, next) => {
     res.status(200).json({
       success: true,
       userdata: doc
+    });
+  });
+});
+
+app.post("/api/users/login", (req, res) => {
+  User.findOne({ email: req.body.email }, (err, user) => {
+    if (!user)
+      return res.json({
+        loginSuccess: false,
+        message: "Auth fallida, email no encontrado"
+      });
+    user.comperPassword(req.body.password, (err, isMatch) => {
+      if (!isMatch)
+        return res.json({ loginSuccess: false, message: "Password erroneo" });
+
+      user.generateToken((err, user) => {
+        if (err) return res.status(400).send(err);
+
+        res
+          .cookie("w_auth", user.token)
+          .status(200)
+          .json({ loginSuccess: tue });
+      });
     });
   });
 });
