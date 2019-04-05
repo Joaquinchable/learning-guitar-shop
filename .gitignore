@@ -1,6 +1,11 @@
 /node_modules
 /build
+<<<<<<< HEAD
 /cliente/node_modules
+=======
+/client/node_modules
+
+>>>>>>> a6ef68a074869d3635a7057f4db0888bea32c04d
 .DS_Store
 .env
 

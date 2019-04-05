@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const port = process.env.PORT || 3002;
 
 require("dotenv").config();
+
 mongoose.connect(
   process.env.DATABASE,
   { useNewUrlParser: true, useCreateIndex: true },
@@ -19,6 +20,14 @@ app.use(express.json());
 app.use(cookieParser());
 
 const { User } = require("./models/User.js");
+
+const { auth } = require("./middleware/auth");
+
+app.get("/api/users/auth", auth, (req, res) => {
+  res.status(200).json({
+    user: req.user
+  });
+});
 
 app.post("/api/users/register", (req, res, next) => {
   const user = new User(req.body);
@@ -39,7 +48,7 @@ app.post("/api/users/login", (req, res) => {
         loginSuccess: false,
         message: "Auth fallida, email no encontrado"
       });
-    user.comperPassword(req.body.password, (err, isMatch) => {
+    user.comparePassword(req.body.password, (err, isMatch) => {
       if (!isMatch)
         return res.json({ loginSuccess: false, message: "Password erroneo" });
 
@@ -47,9 +56,9 @@ app.post("/api/users/login", (req, res) => {
         if (err) return res.status(400).send(err);
 
         res
-          .cookie("w_auth", user.token)
+          .cookie("guitarshop_auth", user.token)
           .status(200)
-          .json({ loginSuccess: tue });
+          .json({ loginSuccess: true });
       });
     });
   });
